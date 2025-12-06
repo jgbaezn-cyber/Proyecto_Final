@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Falabella - Tienda</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="assets/logo.jpg" alt="Falabella Logo" class="logo-img">
+                    <div class="logo-text-container">
+                        <span class="logo-text">FALABELLA</span>
+                    </div>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#ofertas">Ofertas</a></li>
+                    <li><a href="#encuentranos">Encuéntranos</a></li>
+                    <li><a href="#contacto" class="btn-contact">Contacto</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">OTOÑO 2025: <span class="highlight">HASTA 60% OFF</span></h1>
+                <p class="hero-subtitle">Descubre las mejores ofertas en ropa, tecnología y hogar en nuestra tienda.</p>
+                
+                <!-- CTA 1 -->
+                <div class="hero-buttons">
+                    <a href="https://www.falabella.com.pe/falabella-pe/category/cat2024675/Ofertas" class="btn btn-primary" target="_blank">
+                        <i class="fas fa-bolt"></i> Ver Ofertas Exclusivas
+                    </a>
+                    <a href="#productos" class="btn btn-secondary">
+                        <i class="fas fa-shopping-bag"></i> Ver Productos
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Productos Destacados -->
+    <section id="productos" class="products">
+        <div class="container">
+            <h2 class="section-title">PRODUCTOS <span class="highlight">DESTACADOS</span></h2>
+            <p class="section-subtitle">Lo más vendido en nuestra tienda</p>
+            
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image" style="background-image: url('assets/moda.jpg');"></div>
+                    <div class="product-info">
+                        <h3>Moda Mujer</h3>
+                        <p>Camisas, vestidos y jeans</p>
+                        <div class="product-price">
+                            <span class="price">Desde $50.000</span>
+                            <span class="old-price">$70.000</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image" style="background-image: url('assets/tecnologia');"></div>
+                    <div class="product-info">
+                        <h3>Tecnología</h3>
+                        <p>Smartphones, laptops y audífonos</p>
+                        <div class="product-price">
+                            <span class="price">Ofertas desde $200.000</span>
+                            <span class="old-price">$450.000</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image" style="background-image: url('assets/hogar.jpg');"></div>
+                    <div class="product-info">
+                        <h3>Hogar</h3>
+                        <p>Electrodomésticos y decoración</p>
+                        <div class="product-price">
+                            <span class="price">Desde $1'100.000</span>
+                            <span class="old-price">$2'000.000</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- CTA 2 -->
+            <div class="cta-section">
+                <h3>Catálogo Digital Completo</h3>
+                <p>Explora todos nuestros productos desde tu casa.</p>
+                <a href="https://www.falabella.com.pe/falabella-pe" class="btn btn-secondary" target="_blank">
+                    <i class="fas fa-book-open"></i> Ver Catálogo Digital
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ofertas Especiales -->
+    <section id="ofertas" class="offers">
+        <div class="container">
+            <h2 class="section-title">OFERTAS <span class="highlight">ESPECIALES</span></h2>
+            <div class="offers-grid">
+                <div class="offer-card">
+                    <div class="offer-icon">
+                        <i class="fas fa-tag"></i>
+                    </div>
+                    <h3>Descuentos en Moda</h3>
+                    <p>Hasta 50% OFF en ropa de temporada</p>
+                </div>
+                <div class="offer-card">
+                    <div class="offer-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Tecnología</h3>
+                    <p>Smartphones con 12 cuotas sin interés</p>
+                </div>
+                <div class="offer-card">
+                    <div class="offer-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Hogar</h3>
+                    <p>Electrodomésticos con 30% de descuento</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Encuéntranos -->
+    <section id="encuentranos" class="location">
+        <div class="container">
+            <h2 class="section-title">ENCUÉNTRANOS</h2>
+            <p class="section-subtitle">Visita nuestra tienda</p>
+            
+            <div class="location-content">
+                <div class="location-info">
+                    <div class="location-card">
+                        <h3><i class="fas fa-map-marker-alt"></i> Nuestra Tienda</h3>
+                        <p><strong>Dirección:</strong> Cra. 23 #29-145 Local 101, Bucaramanga, Floridablanca, Santander</p>
+                        <p><strong>Horario:</strong> Lunes a Sábado 10:30 - 20:30</p>
+                        <p><strong>Domingos:</strong> 10:30 - 20:00</p>
+                    </div>
+                    
+                    <div class="location-card">
+                        <h3><i class="fas fa-phone"></i> Contáctanos</h3>
+                        <p><strong>Teléfono Principal:</strong> +57 320 342 2460</p>
+                        <p><strong>Atención al Cliente:</strong> +57 311 856 4074</p>
+                    </div>
+                </div>
+                
+                <div class="map">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.4679624233577!2d-73.10990092253292!3d7.071615974704307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e6840c9850e4bab%3A0x509722dbeb3162b3!2sFalabella!5e0!3m2!1ses!2sco!4v1765045908565!5m2!1ses!2sco"
+                        width="100%" 
+                        height="450"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Ubicación de Falabella">
+                    </iframe>
+                    
+                    <p class="map-note">
+                        <i class="fas fa-info-circle"></i> Haz clic en el mapa para ver indicaciones
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulario de Contacto SIMPLE -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2 class="section-title">CONTACTO</h2>
+            <p class="section-subtitle">¿Tienes preguntas? Escríbenos</p>
+            
+            <div class="contact-content">
+                <form id="contact-form" class="contact-form">
+                    <div class="form-row">
+                        <div class="form-group half">
+                            <label for="name">Nombre completo *</label>
+                            <input type="text" id="name" required placeholder="Tu nombre">
+                        </div>
+                        <div class="form-group half">
+                            <label for="email">Correo electrónico *</label>
+                            <input type="email" id="email" required placeholder="tu@email.com">
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group half">
+                            <label for="phone">Teléfono *</label>
+                            <input type="tel" id="phone" required placeholder="+57 300 123 4567">
+                        </div>
+                        <div class="form-group half">
+                            <label for="subject">Asunto *</label>
+                            <select id="subject" required>
+                                <option value="">Selecciona un asunto</option>
+                                <option value="ventas">Consulta de Ventas</option>
+                                <option value="soporte">Soporte Técnico</option>
+                                <option value="reclamos">Reclamos</option>
+                                <option value="devoluciones">Devoluciones</option>
+                                <option value="garantias">Garantías</option>
+                                <option value="general">Consulta General</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <!-- UBICACIÓN SIMPLE - ESCRIBIR NORMAL -->
+                    <div class="form-row">
+                        <div class="form-group half">
+                            <label for="department">Departamento *</label>
+                            <input type="text" id="department" required placeholder="Ej: Antioquia, Cundinamarca, etc.">
+                        </div>
+                        
+                        <div class="form-group half">
+                            <label for="municipality">Municipio/Ciudad *</label>
+                            <input type="text" id="municipality" required placeholder="Ej: Medellín, Bogotá, etc.">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Mensaje *</label>
+                        <textarea id="message" rows="5" required placeholder="Escribe tu mensaje aquí..."></textarea>
+                    </div>
+                    
+                    <div class="form-submit">
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Enviar Mensaje
+                        </button>
+                    </div>
+                </form>
+                <div id="form-message"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <img src="assets/logo.jpg" alt="Falabella Logo" class="footer-logo">
+                        <div class="logo-text-container">
+                            <span class="logo-text">FALABELLA</span>
+                        </div>
+                    </div>
+                    <p>Las mejores ofertas en moda, tecnología y hogar. Tu tienda de confianza.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                        <li><a href="#ofertas">Ofertas</a></li>
+                        <li><a href="#encuentranos">Encuéntranos</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Cra. 23 #29-145 Local 101, Bucaramanga, Floridablanca, Santander</p>
+                    <p><i class="fas fa-phone"></i> +57 320 342 2460</p>
+                    <p><i class="fas fa-mobile-alt"></i> +57 311 856 4074</p>
+                    <p><i class="fas fa-envelope"></i> info@falabella.com.pe</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Horario de Atención</h4>
+                    <p>Lunes a Sábado: 10:00 - 22:00</p>
+                    <p>Domingos: 11:00 - 21:00</p>
+                    <p>Atención telefónica: 8:00 - 22:00</p>
+                    <p>WhatsApp: 24/7</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Falabella - Tienda.</p>
+                <p><small>Proyecto académico. No es el sitio oficial de Falabella.</small></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp con múltiples opciones -->
+    <div class="whatsapp-container">
+        <button class="whatsapp-main-btn" id="whatsapp-toggle">
+            <i class="fab fa-whatsapp"></i>
+            <span class="whatsapp-notification">2</span>
+        </button>
+        
+        <div class="whatsapp-options" id="whatsapp-options">
+            <div class="whatsapp-header">
+                <h4><i class="fab fa-whatsapp"></i> Escríbenos a:</h4>
+                <button class="close-whatsapp">&times;</button>
+            </div>
+            
+            <a href="https://wa.me/573203422460?text=Hola%20Falabella%20,%20quiero%20información%20de%20productos" 
+               class="whatsapp-option" target="_blank">
+                <div class="whatsapp-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <div class="whatsapp-text">
+                    <strong>Ventas</strong>
+                    <small>Consultas de productos y compras</small>
+                </div>
+            </a>
+            
+            <a href="https://wa.me/573118564074?text=Hola%20Falabella,%20necesito%20soporte%20técnico" 
+               class="whatsapp-option" target="_blank">
+                <div class="whatsapp-icon">
+                    <i class="fas fa-tools"></i>
+                </div>
+                <div class="whatsapp-text">
+                    <strong>Soporte Técnico</strong>
+                    <small>Asistencia y garantías</small>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
